@@ -1,0 +1,8 @@
+---
+- name: Playbook for testing Semaphore Trigger
+  hosts: all
+  gather_facts: false
+
+  tasks:
+    - name: Run ping module
+      ansible.builtin.ping:
